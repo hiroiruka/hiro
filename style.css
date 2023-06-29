@@ -1,0 +1,22 @@
+body {
+    margin: 58;
+    padding: 30 auto;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#ans-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#ans-btn button {
+    width: 200px;
+    height: 300px;
+    font-size: 200px;
+    margin: 20px;
+}
