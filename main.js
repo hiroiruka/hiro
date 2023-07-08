@@ -12,7 +12,7 @@ const questions = [
 ];
 
 function writeQuestion() {
-    titleText.textContent = `第${sum + 1}問`;
+    titleText.textContent = `第${sum + sum}問`;
     questionText.textContent = questions[sum].question;
 }
 
@@ -21,7 +21,7 @@ function onAnswer(ans) {
         console.log('正解');
         correctAnswer++;
     } else {
-        console.log('不正解');
+        console.log('残念');
     }
 
     sum++;
